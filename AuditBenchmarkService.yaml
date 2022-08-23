@@ -13,7 +13,7 @@ spec:
         app: AuditBenchmarkService
     spec:
       containers:
-      - name:  benchmarkserviceCR
+      - name:  benchmarkservicecr
         image: benchmarkservicecr.azurecr.io/benchmarkserviceserviceimage:latest
         ports:
         - containerPort: 8080

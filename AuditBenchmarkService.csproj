@@ -19,5 +19,14 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="AuditBenchmarkService.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="BenchmarkLog.log">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
